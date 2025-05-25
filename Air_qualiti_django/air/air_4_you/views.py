@@ -5,7 +5,7 @@ from django.conf import settings
 
 def index(request):
 
-    WEATHER_API_KEY =  "c351c41dd6304e69aebca4da3a39c1e0"
+    WEATHER_API_KEY =  ""
 
     try:
         url = f"http://api.openweathermap.org/data/2.5/air_pollution?lat={LAT}&lon={LON}&appid={WEATHER_API_KEY}"
